@@ -1,24 +1,28 @@
+$blue1: #B8FFEC;
+$blue2: #95F0D8;
+$blue3: #55A38F;
+$red1: #F05729;
+$red2: #A35137;
+
 * {
     margin:0px;
     padding:0px;
   }
 
   #bg-grad{
-    background-image: linear-gradient(white, #B9DDF3)
+    background-image: linear-gradient(white, $blue1)
   }
   
   title {
     display: block;
-    width: 700px;
     margin: 50px auto;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 35px;
-    color: #50D0D4;
   }
   
   .img-bg {
     padding:5px;
-    background-color: #31D6C0;
+    background-color: $red1;
   }
 
   p {
@@ -29,5 +33,5 @@
     width: auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
-    background-color: #65EBE4;
+    background-color: $blue2;
   }

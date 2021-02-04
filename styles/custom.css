@@ -4,22 +4,20 @@
 }
 
 #bg-grad {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#B9DDF3));
-  background-image: linear-gradient(white, #B9DDF3);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#B8FFEC));
+  background-image: linear-gradient(white, #B8FFEC);
 }
 
 title {
   display: block;
-  width: 700px;
   margin: 50px auto;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 35px;
-  color: #50D0D4;
 }
 
 .img-bg {
   padding: 5px;
-  background-color: #31D6C0;
+  background-color: #F05729;
 }
 
 p {
@@ -30,6 +28,6 @@ p {
   width: auto;
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
-  background-color: #65EBE4;
+  background-color: #95F0D8;
 }
 /*# sourceMappingURL=custom.css.map */
