@@ -1,7 +1,23 @@
+ /* Main Styles */
+
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    /* create a template columns using 1 FRACTIONAL UNIT */
+    grid-template-columns: 1fr;
+}
+
+
+
+ /* Nav Styles */
 .nav-wrapper{
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    background-color: rgb(209, 236, 245);
 }
 
 .left-side{
@@ -23,8 +39,24 @@
     text-transform: uppercase;
 }
 
-.nav-link{
+.nav-link {
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
+
+.nav-link a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link a:hover {
+    color: black;
+}
+
+/* Protfolio Styles */

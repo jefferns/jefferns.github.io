@@ -1,0 +1,9 @@
+CSS:
+    Page layouts in grid, small items using flex
+        - see .container in CSS
+        - see .leftside in CSS
+
+HTML:
+    .<classname> creates a div with whatever specified class name
+    Using images:
+        style="background-image:url(<path/to/image>)
