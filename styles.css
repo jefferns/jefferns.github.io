@@ -18,6 +18,10 @@ body {
     justify-content: space-between;
     padding: 30px;
     background-color: rgb(209, 236, 245);
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .left-side{
@@ -60,3 +64,32 @@ body {
 }
 
 /* Protfolio Styles */
+.cat-pictures-wrapper {
+    padding-top: 84px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cat-picture-wrapper {
+    position: relative;
+}
+
+.cat-img-background {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cat-img-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
