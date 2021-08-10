@@ -42,30 +42,30 @@
                 <div class="cat-picture-wrapper">
                     <div class="cat-img-background" style="background-image:url(./images/cats/bandit_puzzle_1.jpg)"></div>
                     <div class="cat-img-text">
-                        Bandit Puzzle
+                        <div class="subtitle">Bandit Puzzle</div>
                     </div>
                 </div>
                 <div class="cat-picture-wrapper">
                     <div class="cat-img-background" style="background-image:url(./images/cats/tiger_sandal.jpg)"></div>
                     <div class="cat-img-text">
-                        Tiger Sandal
+                        <div class="subtitle">Tiger Sandal</div>
                     </div>
                 </div>
                 <div class="cat-picture-wrapper">
                     <div class="cat-img-text">
-                        empty space
+                        <div class="body">empty space</div>
                     </div>
                 </div>
                 <div class="cat-picture-wrapper">
                     <div class="cat-img-background" style="background-image:url(./images/cats/tiger_tile.jpg)"></div>
                     <div class="cat-img-text">
-                        Tiger Outside
+                        <div class="subtitle">Tiger Outside</div>
                     </div>
                 </div>
                 <div class="cat-picture-wrapper">
                     <div class="cat-img-background" style="background-image:url(./images/cats/bandit_blanket.jpg)"></div>
                     <div class="cat-img-text">
-                        Bandit Blanket
+                        <div class="subtitle">Bandit Blanket</div>
                     </div>
                 </div>
                 <div class="cat-picture-wrapper">
@@ -77,4 +77,16 @@
         </div>
     </div>
 </body>
+<script>
+    const catPics = document.querySelectorAll('.cat-picture-wrapper');
+
+    catPics.forEach(pic => {
+        pic.addEventListener('mouseover', () => {
+            pic.childNodes[1].classList.add('img-blur');
+        });
+        pic.addEventListener('mouseout', () => {
+            pic.childNodes[1].classList.remove('img-blur');
+        });
+    })
+</script>
 </html>
