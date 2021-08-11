@@ -7,3 +7,12 @@ HTML:
     .<classname> creates a div with whatever specified class name
     Using images:
         style="background-image:url(<path/to/image>)
+
+
+
+
+
+
+light green D1F5E6
+header blue D1ECF5
+bacvground grey rgb(233, 233, 233);

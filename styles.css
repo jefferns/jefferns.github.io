@@ -2,6 +2,7 @@
 
 body {
     margin: 0px;
+    background-color: white
 }
 
 .container {
@@ -63,11 +64,46 @@ body {
     color: black;
 }
 
+
+/* BELOW THE NAV BAR */
+
+.content-wrapper {
+    padding-top: 84px;
+}
+/* Intro */
+.intro-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 400px;
+    padding-bottom: 50px;
+}
+
+.profile-picture-wrapper > img {
+    display: block;
+    padding: 25px;
+    height: 350px;
+    background-color: #D1F5E6;
+}
+
+.intro-text-wrapper {
+    margin-top: 20px;
+    font-size: 24pt;
+}
+
+.intro-header {
+    font-size: 30pt;
+}
+.intro-body {
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: 18pt;
+}
+
+
 /* Cat Pic Styles */
 .cat-pictures-wrapper {
-    padding-top: 84px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .cat-picture-wrapper {
@@ -75,7 +111,7 @@ body {
 }
 
 .cat-img-background {
-    height: 350px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,11 +130,15 @@ body {
 }
 
 .cat-img-text .subtitle {
+    word-wrap: normal;
     color: transparent;
     transition: 0.5s;
+    font-size: 16pt;
+    font-weight: lighter;
 }
 
 .cat-img-text:hover .subtitle{
+    word-wrap: normal;
     color: red;
 }
 
