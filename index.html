@@ -40,7 +40,7 @@
         <div class="content-wrapper">
             <div class="intro-wrapper">
                 <div class="profile-picture-wrapper">
-                    <img src="./files/images/profile_picture_cropped.jpg" alt="Nicholas Jefferis">
+                    <img class="profile-picture-circle" src="./files/images/profile_picture_cropped.jpg" alt="Nicholas Jefferis">
                 </div>
                 <div class="intro-text-wrapper">
                     <div class="intro-header">
@@ -52,45 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cat-pictures-wrapper">
-                <div class="cat-picture-wrapper">
-                    <div class="cat-img-background" style="background-image:url(./files/images/cats/bandit_puzzle_1.jpg)"></div>
-                    <div class="cat-img-text">
-                        <div class="subtitle">Bandit likes laying on anything you are interacting with</div>
-                    </div>
-                </div>
-                <div class="cat-picture-wrapper">
-                    <div class="cat-img-background" style="background-image:url(./files/images/cats/tiger_sandal.jpg)"></div>
-                    <div class="cat-img-text">
-                        <div class="subtitle">Tiger enjoys many things in life. Including eating rubber sandals</div>
-                    </div>
-                </div>
-                <div class="cat-picture-wrapper">
-                    <div class="cat-img-background" style="background-image:url(./files/images/cats/bandit_blanket.jpg)"></div>
-                    <div class="cat-img-text">
-                        <div class="subtitle">Look at this dude wrapped up in a blanket. Adorable.</div>
-                    </div>
-                </div>
-                <div class="cat-picture-wrapper">
-                    <div class="cat-img-background" style="background-image:url(./files/images/cats/tiger_tile.jpg)"></div>
-                    <div class="cat-img-text">
-                        <div class="subtitle">You know how I said he enjoys many things? Well rolling in dirt is another one.</div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </body>
-<script>
-    const catPics = document.querySelectorAll('.cat-picture-wrapper');
-
-    catPics.forEach(pic => {
-        pic.addEventListener('mouseover', () => {
-            pic.childNodes[1].classList.add('img-blur');
-        });
-        pic.addEventListener('mouseout', () => {
-            pic.childNodes[1].classList.remove('img-blur');
-        });
-    })
-</script>
 </html>
