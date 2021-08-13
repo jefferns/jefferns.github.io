@@ -138,8 +138,11 @@ body {
 
 .project-text {
     margin: 30px;
-    text-align: center;
     font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .project-img{
@@ -150,6 +153,17 @@ body {
 }
 
 .project-img > img{
+    height: 350px;
+    width: auto;
+}
+
+.project-vid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-vid > video{
     height: 350px;
     width: auto;
 }
