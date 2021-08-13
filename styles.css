@@ -74,11 +74,9 @@ body {
 }
 
 /* Intro */
-.intro-wrapper {
-    height: 400px;
-}
 
 .profile-picture-wrapper{
+    padding-top: 20px;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -95,6 +93,9 @@ body {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+.intro-wrapper {
 }
 
 .intro-text-wrapper {
@@ -114,18 +115,32 @@ body {
 .intro-body {
     display: flex;
     align-items:center;
-    justify-content: center;
+    text-align: center;
     font-size: 18pt;
 }
 
 /* Projects */
 .projects-wrapper{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
 .project-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    margin-top: 100px;
+    display: flex;
+}
+
+.project-text {
+    margin: 30px;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.project-img > img{
+    height: auto;
+    width: 500px;
 }
 
 /* About Me */
