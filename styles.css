@@ -72,11 +72,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 /* Intro */
 .intro-wrapper {
     height: 400px;
 }
-
 
 .profile-picture-wrapper{
     display: flex;
@@ -118,7 +118,17 @@ body {
     font-size: 18pt;
 }
 
+/* Projects */
+.projects-wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.project-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 
+/* About Me */
 /* Cat Pic Styles */
 .cat-pictures-wrapper {
     display: grid;
@@ -164,10 +174,6 @@ body {
 .img-blur {
     transition: 0.3s;
     filter: blur(5px) brightness(50%);
-}
-
-.body {
-    padding-top: 40%;
 }
 
 /* RESUME.HTML */
