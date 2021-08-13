@@ -125,11 +125,15 @@ body {
     grid-template-rows: 1fr 1fr;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .project-wrapper{
-    margin-top: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
+    background-color: lightgray;
 }
 
 .project-text {
@@ -138,9 +142,16 @@ body {
     font-size: 20pt;
 }
 
+.project-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .project-img > img{
-    height: auto;
-    width: 500px;
+    height: 350px;
+    width: auto;
 }
 
 /* About Me */
@@ -191,6 +202,12 @@ body {
     filter: blur(5px) brightness(50%);
 }
 
+.box-shadow{
+    background: #ccc;
+    box-shadow: 4px 3px 8px 1px #969696;
+        -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
 /* RESUME.HTML */
 .resume-wrapper {
     margin-top: 2opx;
@@ -199,4 +216,11 @@ body {
 .resume-wrapper > embed {
     width: 1000px;
     height: 800px;
+}
+
+
+.footer {
+    padding: 20px;
+    background-color: rgb(177, 214, 228);
+    z-index: 999;
 }
