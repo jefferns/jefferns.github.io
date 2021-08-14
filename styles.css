@@ -56,11 +56,15 @@ body {
 }
 
 .nav-link:hover {
-    border-bottom: 1px solid #afafaf;
+    border-bottom: 2px solid #afafaf;
 }
 
 .nav-link a:hover {
     color: #afafaf;
+}
+
+.svg-link:hover {
+    font-size: 1.5em;
 }
 
 
