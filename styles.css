@@ -3,6 +3,8 @@
 body {
     margin: 0px;
     background-color: rgb(233, 233, 233);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-color
 }
 
 .container {
@@ -110,6 +112,7 @@ body {
     align-items:center;
     justify-content: center;
     font-size: 30pt;
+    color: #00aeff;
 }
 
 .intro-body {
@@ -117,6 +120,7 @@ body {
     align-items:center;
     text-align: center;
     font-size: 18pt;
+    color: #00aeff;
 }
 
 /* Projects */
@@ -143,6 +147,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    color: #00aeff;
 }
 
 .project-img{
