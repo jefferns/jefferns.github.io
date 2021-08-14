@@ -32,21 +32,19 @@ body {
 }
 
 .nav-wrapper > .left-side > div {
-    margin-right: 15px;
+    padding: 8px;
     font-size: 1.2em;
     text-transform: uppercase;
 }
 
 .nav-wrapper > .right-side > div {
-    margin-right: 10px;
+    padding: 5px;
     font-size: 1.3em;
     text-transform: uppercase;
 }
 
 .nav-link {
     height: 22px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
 }
 
 .nav-link a {
@@ -56,17 +54,8 @@ body {
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid #afafaf;
+    transform: translate(0, 0.3em);
 }
-
-.nav-link a:hover {
-    color: #afafaf;
-}
-
-.svg-link:hover {
-    font-size: 1.5em;
-}
-
 
 /* BELOW THE NAV BAR */
 
