@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Resume</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -39,8 +39,22 @@
         </div>
         <!-- Below Nav Bar -->
         <div class="content-wrapper">
-            <div class="resume-wrapper">
-                <embed src="./files/resume.pdf" type="application/pdf">
+            <div class="form-wrapper">
+                Contact Me!
+                <form action="mailto:jefferns@mail.uc.edu" method="POST" enctype="multipart/form-data" name="EmailForm">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" rows="6" cols="20"></textarea><br>
+                    <input type="submit" value="Send Email">
+                </form>
             </div>
         </div>
     </div>
