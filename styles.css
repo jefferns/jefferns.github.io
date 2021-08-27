@@ -109,7 +109,7 @@ body {
 }
 
 /* Projects */
-.projects-title {
+.title {
     padding-top: 50px;
     text-align: center;
     font-size: 3em;
@@ -171,6 +171,33 @@ body {
     width: 30em;
 }
 
+.work-history-wrapper{
+    display: grid;
+    grid-template-rows: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+.work-experience {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(145, 161, 212);
+}
+.experience-year{
+    width: 200px;
+    padding: 10px;
+    font-size: 20pt;
+    font-weight: bold;
+    background: linear-gradient(to right,#98ceb8, 80%, rgb(145, 161, 212));
+    color: black;
+}
+.experience-text {
+    margin: 30px;
+    margin-top: 10px;
+    font-size: 20pt;
+    text-align: center;
+}
+
 /* About Me */
 /* Cat Pic Styles */
 .cat-pictures-wrapper {
@@ -220,7 +247,6 @@ body {
 }
 
 .box-shadow{
-    background: #ccc;
     box-shadow: 4px 3px 8px 1px #969696;
         -webkit-box-shadow: 4px 3px 8px 1px #969696;
 }

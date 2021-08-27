@@ -1,3 +1,5 @@
+// Created with the help of https://www.youtube.com/watch?v=-ths7kNIFnw&t=494s
+
 var scroll = window.requestAnimationFrame ||
              function(callback){ window.setTimeout(callback, 1000/60)};
 
