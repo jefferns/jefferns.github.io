@@ -197,7 +197,7 @@ opacity: 1;
     padding: 10px;
     font-size: 20pt;
     font-weight: bold;
-    background: linear-gradient(to right,#98ceb8, 80%, rgb(199, 229, 233));
+    background: linear-gradient(to right,rgb(213, 233, 199), 80%, rgb(199, 229, 233));
     color: black;
 }
 .experience-text {
