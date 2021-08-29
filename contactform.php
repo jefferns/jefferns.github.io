@@ -1,16 +1,20 @@
 <?php
 
-if (isset($_POST['submit'])) {
-    echo $name = $_POST['name'];
-    echo $subject = $_POST['subject'];
-    echo $mailFrom = $_POST['email'];
-    echo $message = $_POST['message'];
+require_once('files/PHPMailer/PHPMailerAutoload.php')
 
-    $mailTo = "jefferns@mail.uc.edu";
-    $headers = "From: ".$mailFrom;
-    $txt = "Automated Email from ".$name."at ".$mailFrom.".\n\n".$message;
-    
-    mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.php?mailsend");
-}
+$mail = new PHPMailer();
+$mail->isSMTP();
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = 'ssl';
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = '465';
+$mail->isHTML();
+$mail->Username = 'jeffernswebsite@gmail.com';
+$mail->Password = 'iKBr5D7-Ykf!zJ.'
+$mail->SetFrom('no-reply@jefferns.github.io');
+$mail->Subject = 'Hello world';
+$mail->Body = 'Test';
+$mail->AddAddress('jefferns@mail.uc.edu');
+
+$mail->Send();
 ?>
