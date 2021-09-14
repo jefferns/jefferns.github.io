@@ -43,21 +43,29 @@
         <div class="content-wrapper">
             <div class="form-wrapper">
                 <form action="mailto:jefferns@mail.uc.edu" method="POST" enctype="text/plain" name="EmailForm">
-                    <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-
-                    <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
-
-                    <label for="email">Email:</label><br>
-                    <input type="text" id="email" name="email"><br>
-
-                    <label for="Company">Company:</label><br>
-                    <input type="text" id="company" name="company"><br>
-
-                    <label for="message">Message:</label><br>
-                    <textarea name="message" rows="6" cols="20"></textarea><br>
-                    <input type="submit" value="Send Email">
+                    <div class="name-row">
+                        <div class="form-row">
+                            <label for="fname">First name:</label>
+                            <input type="text" id="fname" name="fname" placeholder="First Name">
+                        </div>
+                        <div class="form-row">
+                            <label for="lname">Last name:</label>
+                            <input type="text" id="lname" name="lname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-row">
+                        <label for="company">Company:</label>
+                        <input type="text" id="company" name="company" placeholder="Company Name">
+                    </div>
+                    <div class="message-row">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" rows="6" cols="20" placeholder="Please leave a message!"></textarea><br>
+                    </div>
+                    <input type="submit" value="Submit">
                 </form>
             </div>
         </div>
