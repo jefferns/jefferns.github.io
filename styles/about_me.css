@@ -1,0 +1,62 @@
+/* About Me */
+/* Bio */
+.bio-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.bio-body {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    font-size: 18pt;
+}
+
+
+/* Cat Pic Styles */
+.cat-pictures-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cat-picture-wrapper {
+    position: relative;
+}
+
+.cat-img-background {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cat-img-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.cat-img-text .subtitle {
+    word-wrap: normal;
+    color: transparent;
+    transition: 0.5s;
+    font-size: 16pt;
+    font-weight: lighter;
+}
+
+.cat-img-text:hover .subtitle{
+    word-wrap: normal;
+    color: red;
+}
+
+.img-blur {
+    transition: 0.3s;
+    filter: blur(5px) brightness(50%);
+}

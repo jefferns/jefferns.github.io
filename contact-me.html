@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/contact-me.css">
+
 </head>
 <body>
     <div class=container>
@@ -40,13 +42,22 @@
         <!-- Below Nav Bar -->
         <div class="content-wrapper">
             <div class="form-wrapper">
-                Contact Me! 1
-                <form class="contact-form" method="POST" action="contactform.php" id="contact-form">
-                    <input type="text" name="name" placeholder="Full Name">
-                    <input type="text" name="email" placeholder="Email">
-                    <input type="text" name="subject" placeholder="Subject">
-                    <textarea name="message" placeholder="Message"></textarea>
-                    <button type="submit" name="submit">Send Email</button>
+                <form action="mailto:jefferns@mail.uc.edu" method="POST" enctype="text/plain" name="EmailForm">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br>
+
+                    <label for="Company">Company:</label><br>
+                    <input type="text" id="company" name="company"><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" rows="6" cols="20"></textarea><br>
+                    <input type="submit" value="Send Email">
                 </form>
             </div>
         </div>

@@ -1,0 +1,9 @@
+/* RESUME.HTML */
+.resume-wrapper {
+    margin-top: 2opx;
+}
+
+.resume-wrapper > embed {
+    width: 1000px;
+    height: 800px;
+}
